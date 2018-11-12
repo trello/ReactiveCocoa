@@ -1851,9 +1851,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D047263419E49FE8006002AA /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"__TRELLO_FIX_XCODE_10_1__=1",
+				);
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
@@ -1863,9 +1868,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D047263419E49FE8006002AA /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					"__TRELLO_FIX_XCODE_10_1__=1",
+				);
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
@@ -1947,9 +1957,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D047263419E49FE8006002AA /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					"__TRELLO_FIX_XCODE_10_1__=1",
+				);
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
@@ -2016,9 +2031,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D047263419E49FE8006002AA /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"__TRELLO_FIX_XCODE_10_1__=1",
+				);
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
